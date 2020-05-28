@@ -30,11 +30,19 @@
     	<scope>test</scope>
 	</dependency>
  
+	<!-- https://mvnrepository.com/artifact/com.oracle.ojdbc/ojdbc8 -->
 	<dependency>
-    	<groupId>com.oracle.jdbc</groupId>
+    	<groupId>com.oracle.ojdbc</groupId>
     	<artifactId>ojdbc8</artifactId>
-    	<version>12.2.0.1</version>
+    	<version>19.3.0.0</version>
 	</dependency>
+	<dependency>
+    	<groupId>javax.servlet</groupId>
+    	<artifactId>javax.servlet-api</artifactId>
+    	<version>3.0.1</version>
+    	<scope>provided</scope>
+	</dependency>
+	
   
   </dependencies>
 </project>
