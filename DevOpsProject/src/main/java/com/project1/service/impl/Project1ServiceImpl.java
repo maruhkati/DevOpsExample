@@ -207,7 +207,7 @@ public class Project1ServiceImpl implements Project1Service {
 		ArrayList<String> transactions = new ArrayList<>();
 		
 		try {
-			br = new BufferedReader(new FileReader("C:\\Users\\bbqpl\\eclipse-workspace\\Project1\\logs\\info_hack_bank.log"));
+			br = new BufferedReader(new FileReader("src/bin/logs/info_hack_bank.log"));
 		} catch (FileNotFoundException e) {
 			throw new BusinessException(e.getMessage());
 		}
